@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#2A455C"/>
+    <stop offset="100%" stop-color="#1B3147"/>
+  </linearGradient>
+  <radialGradient id="hilite" cx="512" cy="280" r="620" fx="512" fy="280" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+    <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.040"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<g id="background">
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect width="1024" height="1024" fill="url(#hilite)"/>
+</g>
+<g id="foreground">
+  <rect x="304" y="285" width="64" height="210" rx="32" fill="#F4EFE6"/>
+  <rect x="392" y="210" width="64" height="360" rx="32" fill="#F4EFE6"/>
+  <rect x="480" y="265" width="64" height="250" rx="32" fill="#F4EFE6"/>
+  <rect x="568" y="190" width="64" height="400" rx="32" fill="#F4EFE6"/>
+  <rect x="656" y="295" width="64" height="190" rx="32" fill="#F4EFE6"/>
+  <rect x="304" y="618" width="416" height="56" rx="28" fill="#C49A4A"/>
+  <rect x="304" y="700" width="312" height="56" rx="28" fill="#C49A4A"/>
+  <rect x="304" y="782" width="220" height="56" rx="28" fill="#C49A4A"/>
+</g>
+</svg>
