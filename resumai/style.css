@@ -625,3 +625,56 @@ figcaption { margin-top: 0.5rem; }
 .lang-switch a { color: var(--text-secondary); text-decoration: none; }
 .lang-switch a:hover { color: var(--link); text-decoration: underline; }
 .lang-switch a[aria-current="true"] { color: var(--text); box-shadow: inset 0 -1px 0 var(--brass); }
+
+
+/* --- guides / articles --- */
+.article {
+  padding: 3rem 0 5rem;
+  max-width: var(--measure);
+}
+.article h1 { max-width: 22ch; margin-bottom: 0.75rem; }
+.article .dek { margin-bottom: 1rem; }
+.article .meta { margin: 0 0 2.5rem; }
+.article h2 {
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+}
+.article ul,
+.article ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.25rem;
+  max-width: var(--measure);
+}
+.article li { margin: 0 0 0.65rem; }
+.article .cta {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+.article .cta .store { margin-top: 1rem; }
+.guides-index { padding: 3rem 0 5rem; }
+.guide-cards {
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+  max-width: 40rem;
+}
+.guide-cards li {
+  margin: 0;
+  padding: 1.35rem 0;
+  border-top: 1px solid var(--rule);
+}
+.guide-cards h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.guide-cards a {
+  text-decoration: none;
+  color: var(--text);
+}
+.guide-cards a:hover { color: var(--link-hover); text-decoration: underline; }
+.guide-cards p {
+  margin: 0.5rem 0 0;
+  color: var(--text-secondary);
+  max-width: var(--measure);
+}
