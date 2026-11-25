@@ -678,3 +678,32 @@ figcaption { margin-top: 0.5rem; }
   color: var(--text-secondary);
   max-width: var(--measure);
 }
+
+/* --- press kit / FAQ guides --- */
+.press-mark {
+  width: 128px;
+  height: 128px;
+  border-radius: 28px;
+  margin: 0 0 1.5rem;
+}
+.facts {
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+.facts > div {
+  margin: 0 0 0.9rem;
+}
+.facts dt {
+  font-weight: 600;
+}
+.facts dd {
+  margin: 0.25rem 0 0;
+  color: var(--text-secondary);
+}
+.article .faq h2 {
+  margin-top: 2.5rem;
+}
+.article .faq h3 {
+  font-size: 1.15rem;
+  margin-top: 1.5rem;
+}
